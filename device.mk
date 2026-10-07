@@ -63,12 +63,6 @@ PRODUCT_COPY_FILES += \
 
 # HAL paketleri (framework tarafi - gerisini stock vendor saglar)
 PRODUCT_PACKAGES += \
-    android.hardware.audio@7.0-impl \
-    android.hardware.audio.effect@7.0-impl \
-    android.hardware.bluetooth@1.0-impl \
-    android.hardware.bluetooth.audio-impl \
-    android.hardware.health@2.1-impl \
-    android.hardware.health@2.1-service \
     android.hardware.power-service.example \
     android.hardware.usb@1.0-service \
     android.hardware.vibrator-service.example \
