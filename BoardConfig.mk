@@ -133,4 +133,3 @@ BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 
 # Proprietary
-include vendor/samsung/a31/BoardConfigVendor.mk
