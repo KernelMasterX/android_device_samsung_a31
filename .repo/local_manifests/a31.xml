@@ -4,16 +4,16 @@
 
   <remote name="kmx" fetch="https://github.com/KernelMasterX" />
 
-  <!-- Device / kernel / vendor (kendi repolarin; adlar yer tutucu) -->
-  <project name="android_device_samsung_a31" path="device/samsung/a31" remote="kmx" revision="lineage-19.1" />
-  <project name="android_kernel_samsung_mt6768" path="kernel/samsung/mt6768" remote="kmx" revision="lineage-19.1" />
-  <project name="android_vendor_samsung_a31" path="vendor/samsung/a31" remote="kmx" revision="lineage-19.1" />
+  <!-- Device + vendor (vendor repo private olacak, Actions'ta token gerekir) -->
+  <project name="android_device_samsung_a31" path="device/samsung/a31" remote="kmx" revision="main" />
+  <project name="android_vendor_samsung_a31" path="vendor/samsung/a31" remote="kmx" revision="main" />
 
   <!-- MediaTek ortak -->
   <project name="LineageOS/android_hardware_mediatek" path="hardware/mediatek" remote="github" revision="lineage-19.1" />
   <project name="LineageOS/android_device_mediatek_sepolicy_vndr" path="device/mediatek/sepolicy_vndr" remote="github" revision="lineage-19.1" />
 
-  <!-- Samsung ortak (isteğe bağlı: samsung hardware / light / audio) -->
-  <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="github" revision="lineage-19.1" />
+  <!-- Kernel prebuilt kullaniliyor, kaynak bulunursa buraya ekle:
+  <project name="android_kernel_samsung_mt6768" path="kernel/samsung/mt6768" remote="kmx" revision="main" />
+  -->
 
 </manifest>
