@@ -41,7 +41,7 @@ TARGET_BOARD_PLATFORM_GPU := mali-g52
 BOARD_HAS_MTK_HARDWARE := true
 MTK_HARDWARE := true
 
-PRODUCT_SHIPPING_API_LEVEL := 29
+PRODUCT_SHIPPING_API_LEVEL ?= 29
 
 # Kernel (prebuilt)
 # KernelImage gzip'li mi ham mi? Termux'ta: file KernelImage
