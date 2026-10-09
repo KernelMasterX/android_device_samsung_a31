@@ -1,4 +1,5 @@
-PRODUCT_MAKEFILES := $(LOCAL_DIR)/a31.mk
+PRODUCT_MAKEFILES := \
+    $(LOCAL_DIR)/lineage_a31.mk
 
 COMMON_LUNCH_CHOICES := \
     lineage_a31-user \
