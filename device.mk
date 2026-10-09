@@ -36,3 +36,5 @@ endif
 # ---------------------------------------------------------
 
 $(call inherit-product, vendor/samsung/a31/a31-vendor.mk)
+
+# Galaxy A31 init configuration
